@@ -16,8 +16,7 @@ int main()
 	cout << "Calculator Console Application" << endl << endl;
 	cout << "Please enter the operation to perform. Format: a+b | a-b | a*b | a/b"
 		<< endl;
-	cout << "分支1"
-		<< endl;
+
 	Calculator c;
 	while (true)
 	{
@@ -36,7 +35,7 @@ int main()
 		{
 			result = c.Calculate(x, oper, y);
 		}
-		cout << "Result is: " << result << endl;
+		cout << x<<oper<<y<<"Result is: " << result << endl;
 		//更改+1
 	}
 	return 0;
